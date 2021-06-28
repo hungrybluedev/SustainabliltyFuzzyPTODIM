@@ -1,0 +1,6 @@
+pandas
+jupyter
+numpy
+scipy
+matplotlib
+autopep8

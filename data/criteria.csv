@@ -1,0 +1,8 @@
+Criteria,Name,Weight,Ideally
+Price,Price,.1859,Lower
+Quality,Quality,.2788,Higher
+EC,Energy Consumption,.1115,Higher
+GD,Green Design,.1394,Higher
+DS,Delivery Speed,.0929,Higher
+CSR,Corporate Social Responsibility,.1115,Higher
+EE,Employee Education,.0796,Higher
