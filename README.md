@@ -8,7 +8,7 @@
 
 ### Main Notebook
 
-[Pythagorean Fuzzy TODIM](Pythagorean_Fuzzy_TODIM/Pythagorean%20Fuzzy%20TODIM%20Ranking.ipynb) is the jupyter notebook that contains the implementation of the Fuzzy variant of TODIM. It requires the data to be stored in a CSV format in the `data` folder.
+[TODIM Tanking](TODIM/TODIM%20Ranking.ipynb) is the jupyter notebook for regular TODIM and [Pythagorean Fuzzy TODIM](Pythagorean_Fuzzy_TODIM/Pythagorean%20Fuzzy%20TODIM%20Ranking.ipynb) is the jupyter notebook that contains the implementation of the Fuzzy variant of TODIM. It requires the data to be stored in a CSV format in the `data` folder.
 
 ### Additional Files
 
