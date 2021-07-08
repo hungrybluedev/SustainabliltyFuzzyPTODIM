@@ -10,18 +10,19 @@ attributes_data = pd.read_csv('../data/criteria.csv')
 def _initialize_items():
     benefit_attributes = set()
     attributes = []
-    weights = []
+    rankings = []
     n = 0
 
     for i, row in attributes_data.iterrows():
         attributes.append(row['Criteria'])
-        weights.append(row['Weight'])
+        rankings.append(row['Rank'])
         n += 1
 
         if row['Ideally'] == 'Higher':
             benefit_attributes.add(i)
 
-    weights = np.array(weights)
+    rankings = np.array(rankings)
+    weights = 2 * (n + 1 - rankings) / (n * (n + 1))
     return benefit_attributes, attributes, weights
 
 
